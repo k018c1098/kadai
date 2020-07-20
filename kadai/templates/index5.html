@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        {% if msg == '' or msg1 == '' %}
+        <h1>入力エラー</h1>
+        {% else %}
+        <h1> {{ msg }} : {{ msg1 }} を受け取りました</h1>
+        {% endif %}
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form method="post" action="/">
+            <h2>入力歩数：<input type="text" id="msg" name="msg"></h2>
+            <input type="submit" value="送信">
+        </form>
+
+    <hr>
+
+        <form>
+            {% for a in c %}
+                <li>{{ a }}</li>
+            {% endfor %}
+        </form>
+    </body>
+</html>
